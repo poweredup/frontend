@@ -161,7 +161,7 @@ class ProfilePreview extends Component {
 				</div> }
 				<div className="profilePreview__details">
 					<div className="profilePreview__details-item profilePreview__balance">
-						<Icon icon="tokenplay"/>
+						<Icon icon="turboplay"/>
 						{formatWei(user.tokenBalance)} Tokens Available
 					</div>
 					<div className="profilePreview__details-item profilePreview__language">

@@ -35,7 +35,7 @@ function Teaser(props) {
 			<div className="shopItem__poster shopItem__poster--fade" onClick={props.onClick}>
 				<img className="shopItem__image" src={game.images.teaser.url} alt={game.name} />
 				<div className="shopItem__price">
-					<Icon icon="tokenplay" />
+					<Icon icon="turboplay" />
 					<span>{formatWei(game.price)}</span>
 				</div>
 			</div>

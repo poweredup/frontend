@@ -1,5 +1,5 @@
 {
-	"name": "tokenplay",
+	"name": "turboplay",
 	"version": "0.1.0",
 	"private": true,
 	"devDependencies": {
@@ -47,7 +47,7 @@
 		"format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 \"**.{js,jsx}\"",
 		"electron": "node node_modules/electron/cli.js electron/",
 		"lint": "node node_modules/eslint/bin/eslint.js src/",
-		"package-win": "node node_modules/.bin/electron-packager electron/build tokenplay --asar --overwrite --platform=win32 --arch=x64 --prune=true --out=release-builds --version-string.CompanyName=TokenPlay --version-string.FileDescription=CE --version-string.ProductName=\"TokenPlay\"",
+		"package-win": "node node_modules/.bin/electron-packager electron/build turboplay --asar --overwrite --platform=win32 --arch=x64 --prune=true --out=release-builds --version-string.CompanyName=TurboPlay --version-string.FileDescription=CE --version-string.ProductName=\"TurboPlay\"",
 		"pack": "build --dir",
 		"dist": "node node_modules/.bin/build",
 		"cp-elect": "cp -R web/dist/app.* dist/win-unpacked/resources/app/ && cp -R electron/electron.js dist/win-unpacked/resources/app/"
@@ -87,7 +87,7 @@
 		"child_process": false
 	},
 	"build": {
-		"appId": "com.app.tokenplay",
+		"appId": "com.app.turboplay",
 		"directories": {
 			"output": "dist",
 			"app": "electron/build"

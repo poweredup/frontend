@@ -60,7 +60,7 @@ class Conversation extends Component{
 		return {
 			right: [
 				{
-					text: <Icon icon="tokenplay"/>,
+					text: <Icon icon="turboplay"/>,
 					onPress: this.handleTokenClick,
 					className: 'conversationPreview__action-send',
 				},

@@ -76,7 +76,7 @@ class StreamModal extends Component {
 			{ id: 'fullScreen', icon: 'expand-alt', onClick: this.handleFullScreenClick },
 			{ id: 'showViewers', icon: 'eye', onClick: this.getCallbackForTool('showViewers') },
 			{ id: 'showComments', icon: 'comment-alt', onClick: this.getCallbackForTool('showComments') },
-			{ id: 'sendTokens', icon: 'tokenplay', onClick: this.getCallbackForTool('sendTokens') },
+			{ id: 'sendTokens', icon: 'turboplay', onClick: this.getCallbackForTool('sendTokens') },
 		];
 
 		return (

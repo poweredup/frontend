@@ -125,7 +125,7 @@ class GameModal extends Component {
 						<img className="shopGame__sidebar-image" src={game.images.cover.url} alt={game.name} />
 						<div className="profilePreview__details">
 							<div className="profilePreview__details-item">
-								<Icon icon="tokenplay" />
+								<Icon icon="turboplay" />
 								<p>{numeral(game.tokensEarned).format('0.0a')} Tokens Earned</p>
 							</div>
 							<div className="profilePreview__details-item">
@@ -158,7 +158,7 @@ class GameModal extends Component {
 					</ScrollableView>
 					<div className="btn-yellow shopGame__purchase" onClick={this.props.onAddToCart}>
 						<button className="btn-yellow shopGame__purchase-button">
-							Add to cart for<Icon icon="tokenplay" />
+							Add to cart for<Icon icon="turboplay" />
 							<span className="shopGame__purchase-button-price">{formatWei(game.price)}</span>
 						</button>
 					</div>

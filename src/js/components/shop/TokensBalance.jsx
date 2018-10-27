@@ -28,7 +28,7 @@ function TokensBalance(props) {
 	return (
 		<div className="shop__balance">
 			<div className="shop__balance-current">
-				<Icon icon="tokenplay"/>
+				<Icon icon="turboplay"/>
 				{balance}
 			</div>
 			<button className="btn btn-sm btn-yellow btn-bold" onClick={props.onAdd}>Add</button>

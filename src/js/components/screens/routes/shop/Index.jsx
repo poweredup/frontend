@@ -100,7 +100,7 @@ class Index extends Component {
 	renderAppBarLogo() {
 		return (
 			<div className="shop__logo">
-				<Icon icon="tokenplay"/>
+				<Icon icon="turboplay"/>
 				<p  className="shop__logo-text">PLAY Store</p>
 			</div>
 		);

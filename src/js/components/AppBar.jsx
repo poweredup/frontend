@@ -38,7 +38,7 @@ class AppBar extends Component {
 		}
 
 		if (this.props.showLogo) {
-			return <img alt="Tokenplay" src={logo} className="appBar__logo" />;
+			return <img alt="Turboplay" src={logo} className="appBar__logo" />;
 		}
 
 		return null;

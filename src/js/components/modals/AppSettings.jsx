@@ -52,7 +52,7 @@ function AppSettings({ user, loading, ...props }) {
 		tokensBlock = (
 			<div className="appSettings__balance">
 				<div className="shop__balance-current">
-					<Icon icon="tokenplay" />
+					<Icon icon="turboplay" />
 					<p>{formatWei(user.tokenBalance)} Tokens Available</p>
 				</div>
 				<div>

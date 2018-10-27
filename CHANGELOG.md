@@ -88,7 +88,7 @@ e9e6acb - phoenixSocket: logging or not can be set in the config
 
 986a887 - Conversation message input: removed file upload button and added emoji functionality
 
-c652686 - updated avatar url paths to work in electron. added real tokenplay packages thought the other info is for other games.
+c652686 - updated avatar url paths to work in electron. added real turboplay packages thought the other info is for other games.
 
 08d65ab - Merge branch 'master' of  into feature/brwc-integration
 
@@ -820,7 +820,7 @@ da5a3bc - Merge branch 'master'
 
 e7d1e68 - /dashboard/home/friends: added pending friend requests "flash" message and side modal
 
-c8f15f0 - Style shop game page; add tokenplay icon and logo; reconfig svg loading to url loader
+c8f15f0 - Style shop game page; add turboplay icon and logo; reconfig svg loading to url loader
 
 4d2c4f7 - /dashboard/home/friends: screen and components created
 

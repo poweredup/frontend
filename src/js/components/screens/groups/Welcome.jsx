@@ -6,7 +6,7 @@ function Welcome({ children }) {
 	return (
 		<div className="screenGroupWelcome">
 			<div className="screenGroupWelcome__header">
-				<img alt="Tokenplay" src={logo} className="screenGroupWelcome__logo" />
+				<img alt="Turboplay" src={logo} className="screenGroupWelcome__logo" />
 			</div>
 			<div className="screenGroupWelcome__content">{children}</div>
 		</div>

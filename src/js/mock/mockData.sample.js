@@ -9,7 +9,7 @@ import GameItem from '../app/CartItem/GameItem';
  * rename this file to this.
  *
  * See the api specification for the attributes of each fields.
- * @see https://app.swaggerhub.com/apis/TJB/TokenPlayAppAPI/1.0.0
+ * @see https://app.swaggerhub.com/apis/TJB/TurboPlayAppAPI/1.0.0
  */
 
 const oneDay = 1000 * 60 * 60 * 24;
@@ -271,7 +271,7 @@ const games = [
 		],
 		package:{
 			id: 'adhd',
-			defaultDest: 'C:/TokenPlay/games/adhd',
+			defaultDest: 'C:/TurboPlay/games/adhd',
 			installSize: 54757100,
 			downloaded: true,
 		},
@@ -304,7 +304,7 @@ const games = [
 		],
 		package:{
 			id: 'gopp',
-			defaultDest: 'C:/TokenPlay/games/gopp',
+			defaultDest: 'C:/TurboPlay/games/gopp',
 			installSize: 54757100,
 		},
 	},
@@ -336,7 +336,7 @@ const games = [
 		],
 		package:{
 			id: 'mfl',
-			defaultDest: 'C:/TokenPlay/games/mfl',
+			defaultDest: 'C:/TurboPlay/games/mfl',
 			installSize: 56966400,
 		},
 	},
@@ -368,7 +368,7 @@ const games = [
 		],
 		package:{
 			id: 'csq',
-			defaultDest: 'C:/TokenPlay/games/csq',
+			defaultDest: 'C:/TurboPlay/games/csq',
 			installSize: 56966400,
 		},
 	},
@@ -401,7 +401,7 @@ const games = [
 		],
 		package:{
 			id: 'jwi',
-			defaultDest: 'C:/TokenPlay/games/jwi',
+			defaultDest: 'C:/TurboPlay/games/jwi',
 			installSize: 56966400,
 		},
 	},
@@ -433,7 +433,7 @@ const games = [
 		],
 		package:{
 			id: 'wh',
-			defaultDest: 'C:/TokenPlay/games/wh',
+			defaultDest: 'C:/TurboPlay/games/wh',
 			installSize: 56966400,
 		},
 	},
@@ -466,7 +466,7 @@ const games = [
 		],
 		package:{
 			id: 'hga',
-			defaultDest: 'C:/TokenPlay/games/hga',
+			defaultDest: 'C:/TurboPlay/games/hga',
 			installSize: 56966400,
 		},
 	},
@@ -498,7 +498,7 @@ const games = [
 		],
 		package:{
 			id: 'tue',
-			defaultDest: 'C:/TokenPlay/games/tue',
+			defaultDest: 'C:/TurboPlay/games/tue',
 			installSize: 56966400,
 		},
 	},
@@ -531,7 +531,7 @@ const games = [
 		],
 		package:{
 			id: 'ava',
-			defaultDest: 'C:/TokenPlay/games/ava',
+			defaultDest: 'C:/TurboPlay/games/ava',
 			installSize: 56966400,
 		},
 	},
@@ -562,7 +562,7 @@ const games = [
 		],
 		package:{
 			id: 'fth',
-			defaultDest: 'C:/TokenPlay/games/fth',
+			defaultDest: 'C:/TurboPlay/games/fth',
 			installSize: 56966400,
 		},
 	},
@@ -594,7 +594,7 @@ const games = [
 		],
 		package:{
 			id: 'cdhr',
-			defaultDest: 'C:/TokenPlay/games/cdhr',
+			defaultDest: 'C:/TurboPlay/games/cdhr',
 			installSize: 56966400,
 		},
 	},
@@ -626,7 +626,7 @@ const games = [
 		],
 		package:{
 			id: 'ret',
-			defaultDest: 'C:/TokenPlay/games/ret',
+			defaultDest: 'C:/TurboPlay/games/ret',
 			installSize: 56966400,
 		},
 	},
@@ -659,7 +659,7 @@ const games = [
 		],
 		package:{
 			id: 'kbe',
-			defaultDest: 'C:/TokenPlay/games/kbe',
+			defaultDest: 'C:/TurboPlay/games/kbe',
 			installSize: 56966400,
 		},
 	},
@@ -691,7 +691,7 @@ const games = [
 		],
 		package:{
 			id: 'som',
-			defaultDest: 'C:/TokenPlay/games/som',
+			defaultDest: 'C:/TurboPlay/games/som',
 			installSize: 5985973593,
 		},
 	},
@@ -723,7 +723,7 @@ const games = [
 		],
 		package:{
 			id: 'quake3',
-			defaultDest: 'C:/TokenPlay/games/quake3',
+			defaultDest: 'C:/TurboPlay/games/quake3',
 			installSize: 5985973593,
 		},
 	},
@@ -746,7 +746,7 @@ const games = [
 	},
 	package: {
 		id: 'jwi',
-		defaultDest: 'C:/TokenPlay/games/jwi',
+		defaultDest: 'C:/TurboPlay/games/jwi',
 		installSize: 454757100,
 	},
 	...data,

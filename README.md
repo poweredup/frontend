@@ -2,18 +2,16 @@ Update: July 3, 2018
 
 [Change Log](CHANGELOG.md)
 
-# TokenPlay Frontend
-TokenPlay ElectronJS, React based Frontend
+# TurboPlay Frontend
+TurboPlay ElectronJS, React based Frontend
 
-The TokenPlay frontend is provided as part of our OpenSource initiative at BlocPlay Entertainment. This source code is released under the Apache2 license. We will update this source code when we see fit.
-
-If you would like more information on this system please contact [Vince McMullin](https://github.com/vamman), CTO.
+The TurboPlay frontend is provided as part of our OpenSource initiative at TurboPlay Corporation. This source code is released under the Apache2 license. We will update this source code when we see fit.
 
 # Disclaimer
 
 ## Alpha
 
-TokenPlay and all of its systems are under heavy active development and we strongly advise against using these systems in production at this time.
+TurboPlay and all of its systems are under heavy active development and we strongly advise against using these systems in production at this time.
 
 # DApp
 
@@ -26,10 +24,10 @@ The Decentralized App ("Dapp") consists of the following core components:
 - Wallet
 
 ## Alpha Interface
-![TokenPlay Interface](screens/screen1.PNG)
+![TurboPlay Interface](screens/screen1.PNG)
 
 # Limited Online Demo
-[TokenPlay Demo](http://demo.tokenplay.com)
+[TurboPlay Demo](http://demo.turboplay.com)
 
 # Desktop dApp Demo
 Our e3 demo closes the 'ecommerce' loop essentially the basic ability to register, login, shop, communicate, buy, download, install, and play games was completed as part of our e3 demo in 2018.
@@ -124,10 +122,10 @@ The following instructions differentiate between the "building machine" (the com
 2. Build the files necessary for the Electron app with `yarn build-electron`.
 3. The generated files will be created in `electron/build/`
 4. There are two ways to create the package, via `yarn dist` and `yarn package-win`. These are scripts that uses `electron-builder` and `electron-packager` respectively.
-5. On the *running machine*, you can copy the `dist/win-unpacked/` or `release-builds/tokenplay-win32-x64/`.
-6. Run the Electron executable in [electron-folder] (ex, on Windows, double click `[electron-folder]/TokenPlay.exe`).
-7. You can create a shortcut to `[electron-folder]/TokenPlay.exe`, put it on the desktop, rename it (like "TokenPlay") and even change its icon to give it a more "official" look.
-8. Or you can use the installer `dist/TokenPlay Setup 0.1.0.exe` which will create the shortcut link for you automatically.
+5. On the *running machine*, you can copy the `dist/win-unpacked/` or `release-builds/turboplay-win32-x64/`.
+6. Run the Electron executable in [electron-folder] (ex, on Windows, double click `[electron-folder]/TurboPlay.exe`).
+7. You can create a shortcut to `[electron-folder]/TurboPlay.exe`, put it on the desktop, rename it (like "TurboPlay") and even change its icon to give it a more "official" look.
+8. Or you can use the installer `dist/TurboPlay Setup 0.1.0.exe` which will create the shortcut link for you automatically.
 
 # TABLET PROTOTYPE
 Suggestion for running the prototype on an Android tablet

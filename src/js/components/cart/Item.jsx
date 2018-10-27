@@ -30,7 +30,7 @@ class Item extends Component {
 					<div>{game.name}</div>
 					<div className="cart__publisher">{game.publisher.name}</div>
 					<div className="cart__price">
-						<Icon icon="tokenplay" />
+						<Icon icon="turboplay" />
 						<p>{formatWei(game.price)}</p>
 					</div>
 				</div>
@@ -43,7 +43,7 @@ class Item extends Component {
 		return (
 			<div className="cart__meta cart__tokens">
 				<div className="cart__thumb">
-					<Icon icon="tokenplay" />
+					<Icon icon="turboplay" />
 				</div>
 				<div className="cart__text cart__tokens-quantity">{formatWei(quantity)}</div>
 			</div>
