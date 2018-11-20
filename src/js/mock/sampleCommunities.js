@@ -9,12 +9,12 @@ let counter = 0;
 
 const communities = [
 	{
-		name: 'Ethereum Official Community',
+		name: 'Stellar Official Community',
 		nbMembers: 10853,
 		medias: {
-			activity: 'mockImages/community/ethereum-community/activity.jpg',
-			cover: 'mockImages/community/ethereum-community/cover.jpg',
-			store: 'mockImages/community/ethereum-community/store.jpg',
+			activity: 'mockImages/community/stellar-community/activity.jpg',
+			cover: 'mockImages/community/stellar-community/cover.jpg',
+			store: 'mockImages/community/stellar-community/store.jpg',
 		},
 	},
 	{

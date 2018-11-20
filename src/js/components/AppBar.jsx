@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import logo from '../../../src/assets/images/logo.svg';
+import logo from '../../../src/assets/images/logo_trans.png';
 
 class AppBar extends Component {
 	static propTypes = {

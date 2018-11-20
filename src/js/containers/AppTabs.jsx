@@ -13,13 +13,13 @@ const routes = [
 		title: 'Home',
 		icon: 'home',
 	},
-	// {
-	// 	id: 'shop',
-	// 	match: '/dashboard/shop',
-	// 	path: '/dashboard/shop/index',
-	// 	title: 'Shop',
-	// 	icon: 'shopping-cart',
-	// },
+	 {
+	 	id: 'shop',
+	 	match: '/dashboard/shop',
+	 	path: '/dashboard/shop/index',
+	 	title: 'Shop',
+	 	icon: 'shopping-cart',
+	 },
 	{
 		id: 'messages',
 		match: '/dashboard/messages',
@@ -27,13 +27,13 @@ const routes = [
 		title: 'Messages',
 		icon: 'envelope',
 	},
-	// {
-	// 	id: 'live',
-	// 	match: '/dashboard/live',
-	// 	path: '/dashboard/live/index',
-	// 	title: 'Live',
-	// 	icon: 'video',
-	// },
+	 {
+	 	id: 'live',
+	 	match: '/dashboard/live',
+	 	path: '/dashboard/live/index',
+	 	title: 'Live',
+	 	icon: 'video',
+	 },
 ];
 
 @inject('ui')
