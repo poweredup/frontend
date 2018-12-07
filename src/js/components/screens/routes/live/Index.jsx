@@ -57,7 +57,7 @@ class Index extends Component {
 		return (
 			<ScrollableView className="scrollableView__streams">
 				<div className="streamList__container streamList__container-play">
-					<StreamList streams={this.props.playNetwork} onStreamClick={this.props.onStreamClick} title="Live from PLAY Network" icon="gamepad"/>
+					<StreamList streams={this.props.playNetwork} onStreamClick={this.props.onStreamClick} title="Live from Turbo" icon="gamepad"/>
 				</div>
 				<div className="streamList__container streamList__container-interactive">
 					<StreamList streams={this.props.interactive} onStreamClick={this.props.onStreamClick} title="Interactive" icon="hand-pointer"/>

@@ -180,9 +180,9 @@ f446813 - Shop: moved some gameAttributes in the config
 
 0af23b5 - Game: update to code to use API images structure (added .url)
 
-a81a8bd - Using formatWei() where tokens are displayed
+a81a8bd - Using formatToken() where tokens are displayed
 
-ddd227a - utils: added formatWei
+ddd227a - utils: added formatToken
 
 50331b4 - User: when updating, makes sure tokenBalance is a number
 

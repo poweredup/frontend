@@ -7,7 +7,7 @@ import omit from 'lodash/omit';
 import numeral from 'numeral';
 import MockObject from '../../mock/MockObject';
 
-const INCREMENT_STEP = 25;
+const INCREMENT_STEP = 5;
 
 @observer
 class SendTokens extends Component {
@@ -22,7 +22,7 @@ class SendTokens extends Component {
 
 	static defaultProps = {
 		isOpen: false,
-		initialAmount: 100,
+		initialAmount: 5,
 		type: 'send',
 		onSend: null,
 		exchangeRate: null,

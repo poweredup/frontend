@@ -4,7 +4,7 @@ import Icon from '../icons/Icon';
 import AbstractCartItem from '../../app/CartItem/AbstractCartItem';
 import GameItem from '../../app/CartItem/GameItem';
 import Loading from '../Loading';
-import { formatWei } from '../../app/utils';
+import { formatToken } from '../../app/utils';
 
 class Item extends Component {
 	static propTypes = {
@@ -31,7 +31,7 @@ class Item extends Component {
 					<div className="cart__publisher">{game.publisher.name}</div>
 					<div className="cart__price">
 						<Icon icon="turboplay" />
-						<p>{formatWei(game.price)}</p>
+						<p>{formatToken(game.price)}</p>
 					</div>
 				</div>
 			</div>
@@ -45,7 +45,7 @@ class Item extends Component {
 				<div className="cart__thumb">
 					<Icon icon="turboplay" />
 				</div>
-				<div className="cart__text cart__tokens-quantity">{formatWei(quantity)}</div>
+				<div className="cart__text cart__tokens-quantity">{formatToken(quantity)}</div>
 			</div>
 		);
 	}

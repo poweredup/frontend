@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Icon from '../icons/Icon';
 import Game from '../../app/Game';
-import { formatWei } from '../../app/utils';
+import { formatToken } from '../../app/utils';
 
 const propTypes = {
 	game: PropTypes.instanceOf(Game).isRequired,
@@ -36,7 +36,7 @@ function Teaser(props) {
 				<img className="shopItem__image" src={game.images.teaser.url} alt={game.name} />
 				<div className="shopItem__price">
 					<Icon icon="turboplay" />
-					<span>{formatWei(game.price)}</span>
+					<span>{formatToken(game.price)}</span>
 				</div>
 			</div>
 			<div className="shopItem__details">

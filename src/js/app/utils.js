@@ -41,3 +41,13 @@ export function formatWei(amount) {
 	const number = numeral(ether.toString());
 	return number.format('0.0[0000]');
 }
+
+/**
+ * Takes a BigNumber instance of Turbo Token amount (1:1 USD) and formats it
+ * @param {BigNumber} amount
+ * @return {string}
+ */
+export function formatToken(amount) {
+	const number = numeral(amount.toString());
+	return number.format('0.00');
+}

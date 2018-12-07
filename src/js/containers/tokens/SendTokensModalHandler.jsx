@@ -98,14 +98,14 @@ class SendTokensModalHandler extends Component {
 
 		return (
 			<SendTokens
-				initialAmount={100}
+				initialAmount={5}
 				isOpen={this.modalOpened}
 				parentSelector={() => modalLocation}
 				type={this.toUser === currentUser ? 'add' : 'send'}
 				toUser={this.toUser}
 				onSend={this.handleSend}
 				onRequestClose={this.handleClose}
-				exchangeRate={this.toUser === currentUser ? 0.1423 : null}
+				exchangeRate={this.toUser === currentUser ? 1.00 : null}
 			/>
 		);
 	}

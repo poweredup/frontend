@@ -10,7 +10,7 @@ import SectionTabs from '../navigation/SectionTabs';
 import ScrollableView from '../ScrollableView';
 import User from '../../app/User';
 import Loading from '../Loading';
-import { formatWei } from '../../app/utils';
+import { formatToken } from '../../app/utils';
 
 function renderTimeParticle(nb) {
 	return `${nb < 10 ? '0' : ''}${nb}`;
@@ -162,7 +162,7 @@ class ProfilePreview extends Component {
 				<div className="profilePreview__details">
 					<div className="profilePreview__details-item profilePreview__balance">
 						<Icon icon="turboplay"/>
-						{formatWei(user.tokenBalance)} Tokens Available
+						{formatToken(user.tokenBalance)} Tokens Available
 					</div>
 					<div className="profilePreview__details-item profilePreview__language">
 						<Icon icon="globe"/>

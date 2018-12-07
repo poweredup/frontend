@@ -4,7 +4,7 @@ import ReactModal from 'react-modal';
 import omit from 'lodash/omit';
 import Icon from '../icons/Icon';
 import User from '../../app/User';
-import { formatWei } from '../../app/utils';
+import { formatToken } from '../../app/utils';
 import Loading from '../Loading';
 
 const propTypes = {
@@ -53,7 +53,7 @@ function AppSettings({ user, loading, ...props }) {
 			<div className="appSettings__balance">
 				<div className="shop__balance-current">
 					<Icon icon="turboplay" />
-					<p>{formatWei(user.tokenBalance)} Tokens Available</p>
+					<p>{formatToken(user.tokenBalance)} Tokens Available</p>
 				</div>
 				<div>
 					<button className="btn btn-sm btn-yellow btn-bold" onClick={props.onAddTokensClick}>

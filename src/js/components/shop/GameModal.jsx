@@ -11,7 +11,7 @@ import ScrollableView from '../ScrollableView';
 import Icon from '../icons/Icon';
 import Game from '../../app/Game';
 import Loading from '../Loading';
-import { formatWei } from '../../app/utils';
+import { formatToken } from '../../app/utils';
 
 const mediaTypeLabels = {
 	video: 'Video',
@@ -159,7 +159,7 @@ class GameModal extends Component {
 					<div className="btn-yellow shopGame__purchase" onClick={this.props.onAddToCart}>
 						<button className="btn-yellow shopGame__purchase-button">
 							Add to cart for<Icon icon="turboplay" />
-							<span className="shopGame__purchase-button-price">{formatWei(game.price)}</span>
+							<span className="shopGame__purchase-button-price">{formatToken(game.price)}</span>
 						</button>
 					</div>
 				</div>

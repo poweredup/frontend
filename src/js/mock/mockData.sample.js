@@ -20,14 +20,14 @@ const oneDay = 1000 * 60 * 60 * 24;
  */
 const allUsers = [
 	{
-		username: 'vance23',
-		displayName: 'Alyx Vance',
+		username: 'VAM',
+		displayName: 'Vince McMullin',
 		avatar: {
 			url: 'mockImages/user/profile-avatar-5.jpg',
 		},
 		tokenBalance: '149275280000000000',
 		language: 'en',
-		motto: 'My motto here!',
+		motto: 'The truth is out there.',
 		status: {
 			code: 'online',
 			displayText: 'Currently online',

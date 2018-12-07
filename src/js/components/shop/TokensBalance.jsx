@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import BigNumber from 'bignumber.js';
 import Loading from '../Loading';
 import Icon from '../icons/Icon';
-import { formatWei } from '../../app/utils';
+import { formatToken } from '../../app/utils';
 
 const propTypes = {
 	tokenBalance: PropTypes.instanceOf(BigNumber),
@@ -22,7 +22,7 @@ function TokensBalance(props) {
 	if (props.loading) {
 		balance = <Loading size="small" />;
 	} else {
-		balance = <p>{formatWei(props.tokenBalance)} Tokens Available</p>;
+		balance = <p>{formatToken(props.tokenBalance)} Tokens Available</p>;
 	}
 
 	return (

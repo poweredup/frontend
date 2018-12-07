@@ -72,7 +72,7 @@ function UserGamePreviewModal(props) {
 					<div className="gamePreviewModal__view">
 						{downloadButton}
 						<button className="btn btn-outline w100" onClick={props.onStoreLinkClick}>
-							View in Play Store
+							View in Turbo Store
 						</button>
 					</div>
 				</div>

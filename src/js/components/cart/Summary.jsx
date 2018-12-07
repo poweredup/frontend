@@ -4,7 +4,7 @@ import BigNumber from 'bignumber.js';
 import { observer, PropTypes as PropTypesMobx } from 'mobx-react';
 import Item from '../../containers/cart/Item';
 import AbstractCartItem from '../../app/CartItem/AbstractCartItem';
-import { formatWei } from '../../app/utils';
+import { formatToken } from '../../app/utils';
 
 @observer
 class Summary extends Component {
@@ -49,7 +49,7 @@ class Summary extends Component {
 							Total
 						</span>
 						<span className="cart__total-number">
-							{formatWei(this.props.total)}
+							{formatToken(this.props.total)}
 						</span>
 					</p>
 				</div>

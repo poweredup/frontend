@@ -101,7 +101,7 @@ class Index extends Component {
 		return (
 			<div className="shop__logo">
 				<Icon icon="turboplay"/>
-				<p  className="shop__logo-text">PLAY Store</p>
+				<p  className="shop__logo-text">Turbo Store</p>
 			</div>
 		);
 	}

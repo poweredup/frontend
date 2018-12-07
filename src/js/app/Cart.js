@@ -144,6 +144,7 @@ class Cart {
 	 * objects are specified, they will be send to the server. Once the server responses with a
 	 * success, the cart is emptied. Returns a promise that resolves when the items were bought.
 	 *
+	 * 
 	 * @param {{
 	 *   firstName: string,
      *   lastName: string,
