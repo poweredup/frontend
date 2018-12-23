@@ -23,12 +23,6 @@ The Decentralized App ("Dapp") consists of the following core components:
 - Profile
 - Wallet
 
-## Alpha Interface
-![TurboPlay Interface](screens/screen1.PNG)
-
-# Limited Online Demo
-[TurboPlay Demo](http://demo.turboplay.com)
-
 # Desktop dApp Demo
 Our e3 demo closes the 'ecommerce' loop essentially the basic ability to register, login, shop, communicate, buy, download, install, and play games was completed as part of our e3 demo in 2018.
 
