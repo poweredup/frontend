@@ -11,15 +11,9 @@ Below is a wireframe sketch of the TurboPlay frontend. Our UI/UX technology is d
 
 ![Interface Concept](https://www.turboplay.com/github/sketch.png)
 
-We've decided to redesign the TokenPlay interface we found it was not comfortable for PC gamers. Our redesign for PC follows a more modern PC UI/UX approach. Below are some preliminary screenshots of this redesign.
+We've decided to redesign the TokenPlay interface we found it was not comfortable for PC gamers. Our redesign for PC follows a more modern PC UI/UX approach. Below are some preliminary screenshot of this redesign.
 
 ![Interface WiP1](https://www.turboplay.com/github/TurboPlay-DesignLoop0000.png)
-
-![Interface WiP2](https://www.turboplay.com/github/TurboPlay-DesignLoop0270.png)
-
-![Interface WiP3](https://www.turboplay.com/github/TurboPlay-DesignLoop0292.png)
-
-![Interface WiP4](https://www.turboplay.com/github/TurboPlay-DesignLoop0763.png)
 
 # Marketplace Experience
 
