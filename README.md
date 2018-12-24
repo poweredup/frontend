@@ -1,62 +1,52 @@
-Update: July 3, 2018
-
-[Change Log](CHANGELOG.md)
-
 # TurboPlay Frontend
 TurboPlay ElectronJS, React based Frontend
 
-The TurboPlay frontend is provided as part of our OpenSource initiative at TurboPlay Corporation. This source code is released under the Apache2 license. We will update this source code when we see fit.
+The TurboPlay frontend is provided as part of our OpenSource initiative at TurboPlay Corporation. This source code is released under the Apache2 license. We will update this source code when we see fit. Notice this source code was originally adopted from BlocPlay Entertainment under the Apache2 License.
 
-# Disclaimer
+# Modern User Experience
 
-## Alpha
+TurboPlay is a modern ecommerce experience where gamers can explore new games and game content in a modern user experience that provides consumers with rich indie content in a simple Netflix like interface (see Figures 1, 2). Unlike Steam which has an outdated 90s era store, our technology uses a minimal, modern, scrollable interface. We achieve this through designing a modern user experience that resembles other modern digital content platforms such as Netflix & Spotify.
 
-TurboPlay and all of its systems are under heavy active development and we strongly advise against using these systems in production at this time.
+Below is a wireframe sketch of the TurboPlay frontend. Our UI/UX technology is developed using React and ElectronJS technologies.
 
-# DApp
+![Interface Concept](https://www.turboplay.com/github/sketch.png)
 
-The Decentralized App ("Dapp") consists of the following core components:
-- Home
-- Store
-- Messaging
-- Live Events
-- Profile
-- Wallet
+We've decided to redesign the TokenPlay interface we found it was not comfortable for PC gamers. Our redesign for PC follows a more modern PC UI/UX approach. Below are some preliminary screenshots of this redesign.
 
-# Desktop dApp Demo
-Our e3 demo closes the 'ecommerce' loop essentially the basic ability to register, login, shop, communicate, buy, download, install, and play games was completed as part of our e3 demo in 2018.
+![Interface WiP1](https://www.turboplay.com/github/TurboPlay-DesignLoop0000.png)
 
-# Technology Stack
+![Interface WiP2](https://www.turboplay.com/github/TurboPlay-DesignLoop0270.png)
+
+![Interface WiP3](https://www.turboplay.com/github/TurboPlay-DesignLoop0292.png)
+
+![Interface WiP4](https://www.turboplay.com/github/TurboPlay-DesignLoop0763.png)
+
+# Marketplace Experience
+
+We prefer to think of our entire platform as fully holistic online marketplace experience encompassing all aspects of modern videogames including socializing, purchasing, streaming, and competing. Our marketplace fully supports our Stellar based Turbo Token. We prefer to think of this token as a “loyalty rewards point”. Consumers are very familiar with loyalty points programs such as Air Miles. Where consumers receive points for swiping their cards during purchase transactions. We want our platform to reward players for being good consumers as much as possible and the token is a fantastic vehicle to accomplish this.
+
+# TurboPlay App
+
+To support gamers, and to ensure that TurboPlay has the greatest impact on the video games industry, we are developing an application  frontend that allows seamless interaction with the entire TurboPlay ecosystem. Gamers will be able to access tokenized games and game assets through a simple user interface without the need for a complicated interfaces or controls, leveraging the technology’s security without exposure to its complexities. The TurboPlay frontend serves as the ecommerce launchpad for consumers browsing, buying, playing, and streaming video games. The frontend gives the consumer a modern and intuitive interface to easily explore and browse the entire TurboPlay ecommerce ecosystem online.
+
+TurboPlay is developed using modern web-based desktop UI technologies including ElectronJS. This technology choice allows for ease of cross platform support therefore we will be supporting the following platforms:
+- Desktop/PC
+- Microsoft Windows, Apple Mac OSX, Linux
+- Mobile
+- Android OS, Apple iOS
+- Browser
+
+The TurboPlay frontend provides a seamless experience as gamers smoothly transition among devices with a similar Look and Feel. By easily logging-in and syncing with our P2P based network, gamers can sync instantly and start playing immediately.
+
+# TurboPlay Technology Stack
 The technology stack includes the following:
 
-Client App
+Frontend Application
 - Node.js
 - ElectronJS (App Rendering/Logic Threading)
 - React (App Rendering)
 - Phoenix Framework (Messaging)
-- Bitraider Framework (Distribution, Downloading, Streaming)
-
-Developer App
-- Bitraider (Uploading, Distribution, Versoning, Streaming)
-- Elixir Web App (Developer Administrator)
-
-Server
-- eWallet Backend API (Account/Ledger/Transactions/Tracking)
-- Gamer API Backend (Store, Games, Stats)
-- EVM Backend (Payment processing via EVM. DEX, Fiat)
-
-Decentralized
-- Peer Swarm (DHT based Game Related Data)
-- IPFS Filesystem (Store Images, Avatars, Game Packages)
-
-Databases
-- Apache Cassandra (Players, Achievements, Stats)
-- Postgresql (Accounts, Transactions, Ledger)
-
-Third party web APIs
-- Twitch API (Streaming)
-- YouTube API (Streaming)
-- ESL API (eSports)
+- Bitraider Framework Under License (Distribution, Downloading, Streaming)
 
 # Development
 * Install node modules `yarn install`
